@@ -1,0 +1,30 @@
+{
+  "name": "ceeker-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:landing\" \"npm run dev:talent\"",
+    "dev:landing": "vite",
+    "dev:talent": "cd ceeker-talent-hub && npm run dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olamitemitope/Ceeker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Olamitemitope/Ceeker/issues"
+  },
+  "homepage": "https://github.com/Olamitemitope/Ceeker#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "vite": "^5.4.21"
+  }
+}
