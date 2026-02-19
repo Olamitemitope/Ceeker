@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #000000;
+    --foreground: #ffffff;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .ceeker-cta {
+        @apply h-[56px] min-w-[180px] px-[32px] text-[16px] font-bold flex items-center justify-center rounded-none transition-all duration-200 cursor-pointer border-none no-underline whitespace-nowrap box-border;
+    }
+
+    .ceeker-cta:hover {
+        @apply opacity-90 scale-[0.98];
+    }
+
+    .ceeker-cta-primary {
+        @apply bg-[#A954A8] text-black;
+    }
+}

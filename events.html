@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Ceeker</title>
+    <meta name="description" content="Join Web3 events, hackathons, and creative missions on Ceeker.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/ceeker_logo.png" alt="Ceeker" class="logo-img"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bounties.html">Bounties</a></li>
+                <li><a href="http://localhost:3000">Talent Hub</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-secondary">Get Started</button>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <!-- Featured Events -->
+        <section id="events" class="featured-events">
+            <div class="container">
+                <div class="section-header">
+                    <span class="category-tag">EVENTS</span>
+                    <h2 class="section-title">Featured Events</h2>
+                </div>
+
+                <div class="events-grid">
+                    <!-- Event 1: Miami -->
+                    <div class="event-card">
+                        <div class="event-banner">
+                            <img src="assets/miami_event_bg.jpg" alt="Miami Hackathon" class="event-bg">
+                            <div class="event-overlay"></div>
+
+                            <!-- Standardized Top Badges -->
+                            <div class="event-top-left">
+                                <div class="attendee-avatars">
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=12" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=15" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=20" alt="Attendee"></div>
+                                </div>
+                                <span class="status-pill upcoming">UPCOMING</span>
+                            </div>
+
+                            <div class="partner-logo">
+                                <img src="assets/story_community_logo.jpg" alt="Story Community Logo">
+                                <span class="partner-text">Story Community</span>
+                            </div>
+
+                            <!-- Standardized Floating Info Card -->
+                            <div class="event-main-info">
+                                <div class="prize-highlight">
+                                    <span class="trophy-icon">🏆</span>
+                                    <span class="prize-amount">$200,000 USD</span>
+                                    <span class="prize-label">in total prizes</span>
+                                </div>
+                                <h3 class="event-title">EasyA Consensus Miami Hackathon</h3>
+                                <p class="event-date-duration">5 May – 7 May 2026 | 72 hours</p>
+                                <div class="event-location">
+                                    <span class="loc-icon">📍</span> MIAMI, FL
+                                </div>
+                                <button class="btn-event-cta primary">View Details</button>
+                                <p class="event-status-muted">Closes in 74 days</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 2: Hong Kong -->
+                    <div class="event-card">
+                        <div class="event-banner">
+                            <img src="assets/hong_kong_event_bg.jpg" alt="Hong Kong Event" class="event-bg">
+                            <div class="event-overlay"></div>
+
+                            <div class="event-top-left">
+                                <div class="attendee-avatars">
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=4" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=5" alt="Attendee"></div>
+                                </div>
+                                <span class="status-pill upcoming">UPCOMING</span>
+                            </div>
+
+                            <div class="partner-logo">
+                                <span class="partner-text">Story Community</span>
+                            </div>
+
+                            <div class="event-main-info">
+                                <div class="prize-highlight">
+                                    <span class="trophy-icon">🏆</span>
+                                    <span class="prize-amount">$100,000 USD</span>
+                                    <span class="prize-label">in total prizes</span>
+                                </div>
+                                <h3 class="event-title">EasyA Consensus Hong Kong Hackathon</h3>
+                                <p class="event-date-duration">10 Feb – 12 Feb 2026 | 48 hours</p>
+                                <div class="event-location">
+                                    <span class="loc-icon">📍</span> HONG KONG, HK
+                                </div>
+                                <button class="btn-event-cta secondary">View Recap</button>
+                                <p class="event-status-muted">Event Ended</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 3: Boston -->
+                    <div class="event-card">
+                        <div class="event-banner">
+                            <img src="assets/boston_event_bg.jpg" alt="Boston Event" class="event-bg">
+                            <div class="event-overlay"></div>
+
+                            <div class="event-top-left">
+                                <div class="attendee-avatars">
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=1" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=3" alt="Attendee"></div>
+                                </div>
+                                <span class="status-pill completed">COMPLETED</span>
+                            </div>
+
+                            <div class="partner-logo">
+                                <img src="assets/concero_logo.png" alt="Concero Logo">
+                                <span class="partner-text">Concero</span>
+                            </div>
+
+                            <div class="event-main-info">
+                                <div class="prize-highlight">
+                                    <span class="trophy-icon">🏆</span>
+                                    <span class="prize-amount">$25,000 USD</span>
+                                    <span class="prize-label">in total prizes</span>
+                                </div>
+                                <h3 class="event-title">Hack-O-Ween Hackathon</h3>
+                                <p class="event-date-duration">25 Oct – 26 Oct 2025 | 36 hours</p>
+                                <div class="event-location">
+                                    <span class="loc-icon">📍</span> BOSTON, USA
+                                </div>
+                                <button class="btn-event-cta secondary">View Recap</button>
+                                <p class="event-status-muted">Event Ended</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 4: Lagos -->
+                    <div class="event-card">
+                        <div class="event-banner">
+                            <img src="assets/lagos_event_bg.jpg" alt="Lagos Event" class="event-bg">
+                            <div class="event-overlay"></div>
+
+                            <div class="event-top-left">
+                                <div class="attendee-avatars">
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=7" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=8" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=9" alt="Attendee"></div>
+                                </div>
+                                <span class="status-pill completed">COMPLETED</span>
+                            </div>
+
+                            <div class="partner-logo">
+                                <img src="assets/zulu_network_logo.png" alt="Zulu Network Logo">
+                                <span class="partner-text">Zulu Network</span>
+                            </div>
+
+                            <div class="event-main-info">
+                                <div class="prize-highlight">
+                                    <span class="prize-amount">Bridging the Gap</span>
+                                </div>
+                                <h3 class="event-title">Story Community Buildspace</h3>
+                                <p class="event-date-duration">15 Dec 2026 | Full-day Workshop</p>
+                                <div class="event-location">
+                                    <span class="loc-icon">📍</span> Lagos, NG
+                                </div>
+                                <button class="btn-event-cta secondary">View Recap</button>
+                                <p class="event-status-muted">Event Ended</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Event 5: Kano -->
+                    <div class="event-card">
+                        <div class="event-banner">
+                            <img src="assets/kano_speaker.jpg" alt="Kano Event" class="event-bg">
+                            <div class="event-overlay"></div>
+
+                            <div class="event-top-left">
+                                <div class="attendee-avatars">
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=11" alt="Attendee"></div>
+                                    <div class="avatar"><img src="https://i.pravatar.cc/150?u=12" alt="Attendee"></div>
+                                </div>
+                                <span class="status-pill completed">COMPLETED</span>
+                            </div>
+
+                            <div class="partner-logo jellyverse-logo-wrap">
+                                <img src="assets/jellyverse_logo.svg" alt="Jellyverse Logo">
+                                <span class="partner-text">Jellyverse</span>
+                            </div>
+
+                            <div class="event-main-info">
+                                <div class="prize-highlight">
+                                    <span class="prize-amount">Learning and Creating</span>
+                                </div>
+                                <h3 class="event-title">Jellyverse Workshop</h3>
+                                <p class="event-date-duration">5 Jan 2027 | Half-day Event</p>
+                                <div class="event-location">
+                                    <span class="loc-icon">📍</span> Kano, NG
+                                </div>
+                                <button class="btn-event-cta secondary">View Recap</button>
+                                <p class="event-status-muted">Event Ended</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/ceeker_logo.png" alt="Ceeker" class="logo-img"></a>
+                    </div>
+                    <p class="footer-tagline">Ceeker is a Web3 native platform helping small creators earn, grow, and
+                        get discovered through bounties, events, and merit based opportunities.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Platform</h4>
+                        <ul class="footer-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="bounties.html">Bounties</a></li>
+                            <li><a href="http://localhost:3000">Talent Hub</a></li>
+                            <li><a href="events.html" class="active">Events</a></li>
+                            <li><a href="index.html#how-it-works">How it Works</a></li>
+                            <li><a href="index.html#community">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Resources</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#docs">Documentation</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#support">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <div class="social-links">
+                            <a href="#" class="social-img-link" style="display: block; width: 100%;">
+                                <img src="assets/connect_icons.png" alt="Connect with us" class="social-icons-img"
+                                    style="width: 100%; height: auto; display: block;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ceeker. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <style>
+        .nav-links a.active {
+            color: var(--text-color);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 2px;
+        }
+
+        /* Jellyverse Logo Specific Styling */
+        .jellyverse-logo-wrap img {
+            background-color: #f0f7ff;
+            border-radius: 4px;
+            padding: 2px;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+        }
+    </style>
+    <!-- Login Modal -->
+    <div id="loginModal" class="login-modal">
+        <div class="modal-backdrop" onclick="closeLoginModal()"></div>
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeLoginModal()">
+                <i data-lucide="x" width="20" height="20"></i>
+            </button>
+
+            <div class="modal-title">
+                <h2>Welcome Back</h2>
+                <p>Sign in to your account</p>
+            </div>
+
+            <form class="modal-form" onsubmit="event.preventDefault()">
+                <input type="email" placeholder="Email" class="form-input">
+                <div style="position: relative;">
+                    <input type="password" placeholder="Password" class="form-input">
+                </div>
+
+                <div style="text-align: right; margin-top: -0.5rem;">
+                    <a href="#"
+                        style="color: rgba(255,255,255,0.8); font-size: 0.8125rem; text-decoration: none;">Forgot
+                        password?</a>
+                </div>
+
+                <button type="submit" class="btn-login">Sign In</button>
+
+                <div class="modal-divider">
+                    <span>or continue with</span>
+                </div>
+
+                <button type="button" class="btn-google">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.52 12.29C23.52 11.43 23.4414 10.69 23.3105 10H12V14.51H18.4718C18.1882 15.96 17.3395 17.16 16.0691 18.01V20.89H19.9405C22.215 18.78 23.52 15.68 23.52 12.29Z"
+                            fill="#4285F4" />
+                        <path
+                            d="M12 24C15.24 24 17.9659 22.92 19.9445 21.09L16.0732 18.21C15 18.96 13.62 19.39 12 19.39C8.875 19.39 6.22591 17.27 5.27591 14.4H1.27591V17.5C3.26455 21.43 7.32409 24 12 24Z"
+                            fill="#34A853" />
+                        <path
+                            d="M5.27591 14.4C5.02591 13.67 4.88727 12.87 4.88727 12C4.88727 11.13 5.02591 10.33 5.27591 9.6V6.5H1.27591C0.465455 8.13 0 9.99 0 12C0 14.01 0.465455 15.87 1.27591 17.5L5.27591 14.4Z"
+                            fill="#FBBC05" />
+                        <path
+                            d="M12 4.61C13.765 4.61 15.345 5.23 16.595 6.4L19.995 3C17.955 1.11 15.24 0 12 0C7.32409 0 3.26455 2.57 1.27591 6.5L5.27591 9.6C6.22591 6.73 8.875 4.61 12 4.61Z"
+                            fill="#EA4335" />
+                    </svg>
+                    Google Sign-in
+                </button>
+
+                <div style="text-align: center; margin-top: 1rem; font-size: 0.8125rem; color: rgba(255,255,255,0.5);">
+                    Don't have an account? <a href="#" style="color: white; text-decoration: underline;">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lucide Icons Support -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        function openLoginModal() {
+            const modal = document.getElementById('loginModal');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            if (window.lucide) lucide.createIcons();
+        }
+
+        function closeLoginModal() {
+            const modal = document.getElementById('loginModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Attach to all relevant buttons
+        document.querySelectorAll('.btn, .btn-secondary, .btn-event-cta').forEach(button => {
+            const text = button.textContent.toLowerCase();
+            if (text.includes('get started') || text.includes('view meetup') || text.includes('view recap')) {
+                button.onclick = (e) => {
+                    e.preventDefault();
+                    openLoginModal();
+                };
+            }
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
